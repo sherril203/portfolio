@@ -1,0 +1,27 @@
+.profile{
+    background-color: aqua;
+}
+.contact{
+    background-color: aquamarine;
+}
+.edu{
+    background-color: chartreuse;
+}
+.work{
+    background-color:cyan;
+}
+.tech,.skill{
+    background-color: greenyellow;
+}
+.soft{
+    background-color: lightgreen;
+}
+.archieve{
+background-color: green;
+}
+.part{
+    background-color:cadetblue;
+}
+.pro{
+    background-color:darkcyan;
+}
