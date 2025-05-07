@@ -1,3 +1,8 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
 .profile{
     background-color: aqua;
 }
@@ -16,12 +21,9 @@
 .soft{
     background-color: lightgreen;
 }
-.archieve{
-background-color: green;
-}
 .part{
-    background-color:cadetblue;
+    background-color:darkseagreen;
 }
 .pro{
-    background-color:darkcyan;
+    background-color:beige;
 }
