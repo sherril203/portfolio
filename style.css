@@ -9,8 +9,11 @@ html, body {
 .contact{
     background-color: aquamarine;
 }
-.edu{
+.obj{
     background-color: chartreuse;
+}
+.edu{
+    background-color: white;
 }
 .work{
     background-color:cyan;

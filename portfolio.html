@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-    <script src="bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/js/bootstrap.js"></script>
+    <script src="bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
     <title>My Portfolio</title>
 </head>
 <body class="container-fluid p-0 m-0">
     <div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light position-static">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Portfolio</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,24 +35,23 @@
         <li class="nav-item">
           <a class="nav-link" href="#scrollspyHeading8">Projects</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#scrollspyHeading9">Certification</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#scrollspyHeading11">Participation and Achievements</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#scrollspyHeading10">Workshop</a>
+         <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+            Certifications
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="nav-link" href="#scrollspyHeading9">Certification</a></li>
+            <li><a class="nav-link" href="#scrollspyHeading11">Participation and Achievements</a></li>
+            <li><a class="nav-link" href="#scrollspyHeading10">Workshop</a></li>
+          </ul>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
             Portfolio
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Resume 1</a></li>
-            <li><a class="dropdown-item" href="#">Resume 2</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="SHERRIL-Updating.pdf">Resume 1</a></li>
+            <li><a class="dropdown-item" href="2-col-resume.pdf">Resume 2</a></li>
           </ul>
         </li>
         <li class="nav-item">
@@ -78,23 +77,15 @@
              <b>Contact No:</b>+91 9486907680</p>
            </div>
     </div>
-    <div class="edu p-1">
+    <div class="obj p-1">
         <h2 class="text-center " id="scrollspyHeading3">About Me</h2>
        <div class="p-3" >
            <p>I am M Sherril James Kumar from Chennai. I have interest in coding in web application and UI/UX design.
             Being a MERN Stack developer , I have knowledge in React, Node.js, Express.js, MongoDB, HTML, CSS, JavaScript,
-            and other related technologies. I am a problem solver and decision maker to do my work efficiently.</p>
+            and other related technologies and experienced in building scalable, user-centric web applications using technologies like React, Node.js, and RESTful APIs.
+            Skilled in writing clean, maintainable code following modern development standards. I have soft skills of problem solving and decision making to do my work efficiently.
+            I am Passionate about solving real-world problems through efficient and innovative solutions. </p>
        </div>
-       <div class="edu p-1">
-        <h2 class="text-center">Career Objective</h2>
-       <div class="p-3" >
-           <p>Aspiring to join a forward-thinking development team and contribute through strong front-end and back-end capabilities. 
-            Experienced in building scalable, user-centric web applications using technologies like React, Node.js, and RESTful APIs.
-             Skilled in writing clean, maintainable code following modern development standards. Adept at debugging, optimizing performance, and integrating third-party services.
-             Passionate about solving real-world problems through efficient and innovative solutions. 
-            Committed to supporting business growth through high-quality software development.</p>
-       </div>
-   </div>
    </div>
     <div class="edu p-1">
         <h2 class="text-center" id="scrollspyHeading5">Education qualification</h2>
@@ -163,7 +154,7 @@
    </p>
     </div>
    </div>
-   <div class="edu p-1">
+   <div class="obj p-1">
         <h2 class="text-center" id="scrollspyHeading9">Certification</h2>
        <div class="p-3" >
            <p>
